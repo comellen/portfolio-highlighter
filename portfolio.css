@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Overpass:400,600i");
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+.headspace {
+  background: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 30px 20px;
+}
+.portrait {
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  float: right;
+  width: 600px;
+}
+h1 {
+  font-family: "Overpass", sans-serif;
+  text-shadow: 3px 3px #35a7ff, -3px -3px #ff5964;
+  /* word-wrap: break-word; */
+}
+h1.name {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 75px;
+}
+h1.section-title {
+  font-style: italic;
+  font-size: 70px;
+  padding-left: 30px;
+}
+.mark {
+  background-color: #F2FF00;
+  mix-blend-mode: darken;
+}
+.projects {
+  background-color: #F000D5 ;
+}
+.aboutme {
+  background-color: #00FBE6;
+}
+.contact {
+  background-color: #F2FF00;
+
+}
+.aboutme-text {
+  background-color: #fff;
+  margin: ;
+}
+.footer
+.contact-logo {
+  float: right;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 479px) {
+  h1.name {
+    font-size: 66px;
+    line-height: 50px;
+  }
+  .portrait {
+    width: 300px;
+  }
+  }
