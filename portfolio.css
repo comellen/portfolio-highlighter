@@ -61,10 +61,11 @@ h1 {
   font-family: "Overpass", sans-serif;
   word-wrap: break-word;
   text-shadow: 2px 2px #35a7ff, -2px -2px #ff5964;
+  margin: 0;
 }
 h1.name {
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 20px;
   font-style: italic;
   font-weight: 600;
@@ -138,6 +139,9 @@ h1.section-title {
       text-shadow: 2px 2px #35a7ff;
     }
   }
+  .headspace {
+    margin: 0 0 167px 0;
+  }
   h1 {
     text-shadow: 2px 2px #35a7ff, -2px -2px #ff5964;
   }
@@ -146,7 +150,6 @@ h1.section-title {
     line-height: 50px;
   }
   h1.section-title {
-    font-style: italic;
     font-size: 47px;
     padding-left: 20px;
   }
@@ -156,6 +159,9 @@ h1.section-title {
 }
 
 @media screen and (max-width: 479px) {
+  .headspace {
+    margin: 0 0 125px 0;
+  }
   h1 {
     text-shadow: 2px 2px #35a7ff, -2px -2px #ff5964;
   }
