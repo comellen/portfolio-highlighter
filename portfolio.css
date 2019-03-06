@@ -34,25 +34,22 @@ h1.section-title {
   padding-left: 30px;
 }
 .mark {
-  background-color: #F2FF00;
+  background-color: #f2ff00;
   mix-blend-mode: darken;
 }
 .projects {
-  background-color: #F000D5 ;
+  background-color: #f000d5;
 }
 .aboutme {
-  background-color: #00FBE6;
+  background-color: #00fbe6;
 }
 .contact {
-  background-color: #F2FF00;
-
+  background-color: #f2ff00;
 }
 .aboutme-text {
   background-color: #fff;
-  margin: ;
 }
-.footer
-.contact-logo {
+.footer .contact-logo {
   float: right;
   height: 50px;
   margin-right: 10px;
@@ -67,4 +64,4 @@ h1.section-title {
   .portrait {
     width: 300px;
   }
-  }
+}
