@@ -98,10 +98,15 @@ h1.section-title {
 .aboutme-text {
   background-color: #fff;
 }
-.footer .contact-logo {
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.contact-logo {
   float: right;
   height: 50px;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-bottom: 30px;
 }
 
@@ -144,7 +149,8 @@ h1.section-title {
   h1 {
     text-shadow: 2px 2px #35a7ff, -2px -2px #ff5964;
   }
-  h1.name, h1.name-overlay {
+  h1.name,
+  h1.name-overlay {
     font-size: 66px;
     line-height: 50px;
   }
@@ -164,7 +170,8 @@ h1.section-title {
   h1 {
     text-shadow: 2px 2px #35a7ff, -2px -2px #ff5964;
   }
-  h1.name, h1.name-overlay {
+  h1.name,
+  h1.name-overlay {
     font-size: 50px;
     line-height: 37.5px;
   }
