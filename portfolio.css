@@ -59,7 +59,6 @@ body {
 }
 h1 {
   font-family: "Overpass", sans-serif;
-  word-wrap: break-word;
   text-shadow: 2px 2px #35a7ff, -2px -2px #ff5964;
   margin: 0;
 }
