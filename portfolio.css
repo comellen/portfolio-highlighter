@@ -32,6 +32,14 @@
     text-shadow: 3px 3px #35a7ff;
   }
 }
+.blueshadow {
+  -webkit-animation: text-shadow-drop-tl 0.6s both;
+  animation: text-shadow-drop-tl 0.6s both;
+}
+.redshadow {
+  -webkit-animation: text-shadow-drop-br 0.6s both;
+  animation: text-shadow-drop-br 0.6s both;
+}
 
 body {
   background: #fff;
@@ -40,7 +48,7 @@ body {
   width: 100%;
 }
 .headspace {
-  margin: 0;
+  margin: 0 0 250px 0;
   padding-left: 20px;
 }
 .portrait {
@@ -51,19 +59,10 @@ body {
 }
 h1 {
   font-family: "Overpass", sans-serif;
-  text-shadow: 3px 3px #35a7ff, -3px -3px #ff5964;
-  /* word-wrap: break-word; */
+  word-wrap: break-word;
+  text-shadow: 2px 2px #35a7ff, -2px -2px #ff5964;
 }
 h1.name {
-  z-index: 100;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 100px;
-  line-height: 75px;
-  -webkit-animation: text-shadow-drop-tl 0.6s both;
-  animation: text-shadow-drop-tl 0.6s both;
-}
-h1.name-overlay {
   position: absolute;
   top: 0;
   left: 20px;
@@ -71,8 +70,12 @@ h1.name-overlay {
   font-weight: 600;
   font-size: 100px;
   line-height: 75px;
-  -webkit-animation: text-shadow-drop-br 0.6s both;
-  animation: text-shadow-drop-br 0.6s both;
+}
+h1.name-overlay {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 75px;
 }
 h1.section-title {
   font-style: italic;
@@ -153,6 +156,9 @@ h1.section-title {
 }
 
 @media screen and (max-width: 479px) {
+  h1 {
+    text-shadow: 2px 2px #35a7ff, -2px -2px #ff5964;
+  }
   h1.name, h1.name-overlay {
     font-size: 50px;
     line-height: 37.5px;
