@@ -64,6 +64,11 @@ h1.section-title {
     font-size: 66px;
     line-height: 50px;
   }
+  h1.section-title {
+    font-style: italic;
+    font-size: 47px;
+    padding-left: 20px;
+  }
   .portrait {
     width: 450px;
   }
@@ -79,5 +84,9 @@ h1.section-title {
   }
   .portrait {
     width: 300px;
+    float: none;
+  }
+  .portrait-wrapper {
+    text-align: center;
   }
 }
