@@ -33,12 +33,12 @@
   }
 }
 .blueshadow {
-  -webkit-animation: text-shadow-drop-tl 2s both;
-  animation: text-shadow-drop-tl 2s both;
+  -webkit-animation: text-shadow-drop-tl 1s both;
+  animation: text-shadow-drop-tl 1s both;
 }
 .redshadow {
-  -webkit-animation: text-shadow-drop-br 2s both;
-  animation: text-shadow-drop-br 2s both;
+  -webkit-animation: text-shadow-drop-br 1s both;
+  animation: text-shadow-drop-br 1s both;
 }
 
 body {
