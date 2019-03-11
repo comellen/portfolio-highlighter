@@ -102,7 +102,10 @@ h1.section-title {
   background-color: #f2ff00;
 }
 .aboutme-text {
-  background-color: #fff;
+  padding: 0px 20px 20px 40px;
+  font-size: 14pt;
+  font-family: 'Lato', sans-serif;
+  width: 60%;
 }
 .footer {
 }
@@ -205,4 +208,5 @@ h1.section-title {
   }
   .portrait {
     width: 300px;
+  }
 }
